@@ -1,0 +1,13 @@
+%YAML:1.0
+R: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 0.9987, 0.0340, 0.0378,  -0.0345, 0.9993, 0.0132,  -0.0373, -0.0145, 0.9992 ]
+T: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ -48.254751, 3.710367, 0.564928 ]
+ImageSizeHeight: 1080
+ImageSizeWidth: 1920

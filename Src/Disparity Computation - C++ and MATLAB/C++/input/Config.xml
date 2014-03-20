@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<opencv_storage>
+  <ShowRectify>
+    1
+  </ShowRectify>
+  <ShwoDisparity>
+    0
+  </ShwoDisparity>
+  <SaveDisparity>
+    0
+  </SaveDisparity>
+  <ComputeConfidence>
+    0
+  </ComputeConfidence>
+  <SavePath>
+    "t/"
+  </SavePath>
+</opencv_storage>
+

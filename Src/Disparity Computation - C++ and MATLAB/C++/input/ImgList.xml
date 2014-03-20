@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<opencv_storage>
+  <imageorvideo>
+   1
+  </imageorvideo>  
+  <leftvideo>
+    "leftvideo.avi"
+  </leftvideo>  
+  <rightvideo>
+    "rightvideo.avi"
+  </rightvideo>
+  <inputpath>
+    ""
+  </inputpath>
+  <leftname>
+    "left_"
+  </leftname>
+  <rightname>
+    "right_"
+  </rightname>
+  <imageformat>
+    "jpg"
+  </imageformat>
+  <imagelist>
+    "1"
+  </imagelist>
+</opencv_storage>
+
