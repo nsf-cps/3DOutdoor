@@ -1,0 +1,1 @@
+This folder provides extra documents for users who want to develop a detailed knowledge about the cameras.

@@ -1,0 +1,1 @@
+This code is used to trigger our stereo cameras externally. A clock signal of 3.3 V is sent from the pin GPIO_37 of the beaglebone to the GPIO pin 0 of our cameras.
