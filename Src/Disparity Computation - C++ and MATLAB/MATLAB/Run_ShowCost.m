@@ -8,9 +8,11 @@
 
 clear all
 close all
+
+ImageID = '01';
 %% PKRN
-load('cost1.txt');
-load('cost2.txt');
+cost1 = load(['cost1_' ImageID '.txt']);
+cost2 = load(['cost2_' ImageID '.txt']);
 
 small_num = 100;
 confid = (cost2+small_num)./(cost1+small_num)-1;
@@ -19,13 +21,13 @@ axis off
 title('PKRN')
 
 %% MLM
-load('costMLM.txt');
+costMLM = load(['costMLM_' ImageID '.txt']);
 figure;imagesc(fliplr(costMLM));colormap(gray);axis equal
 axis off
 title('MLM')
 
 %% LC
-load('costLC.txt');
+costLC = load(['costLC_' ImageID '.txt']);
 figure;imagesc(fliplr(costLC));colormap(gray);axis equal
 axis off
 title('LC')

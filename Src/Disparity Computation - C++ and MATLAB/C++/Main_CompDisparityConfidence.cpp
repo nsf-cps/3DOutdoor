@@ -335,11 +335,11 @@ static void StereoDisparity()
 		if(FLAG_CONFIDENCE)
 		{
 			string cost1_name, cost2_name, costmin_name, costMLM_name, costLC_name;
-			
-			cost1_name = SavePath + "cost1.txt";
-			cost2_name = SavePath + "cost2.txt";
-			costMLM_name = SavePath + "costMLM.txt";
-			costLC_name = SavePath + "costLC.txt";
+
+			cost1_name = SavePath + "cost1_" + ImageID + ".txt";
+			cost2_name = SavePath + "cost2_" + ImageID + ".txt";
+			costMLM_name = SavePath + "costMLM_" + ImageID + ".txt";
+			costLC_name = SavePath + "costLC_" + ImageID + ".txt";
 
 			ofstream outFilemin1(cost1_name, ios_base::out);
 			ofstream outFilemin2(cost2_name, ios_base::out);
